@@ -17,7 +17,7 @@
           <td>{{ gist.created_at }}</td>
           <td>{{ gist.updated_at }}</td>
           <td>{{ gist.description }}</td>
-          <td>{{gist.commits_url}}</td>
+          <td><a :href="gist.commits_url" target="_blank">{{ gist.commits_url }}</a></td>
       
         </tr>
       </tbody>

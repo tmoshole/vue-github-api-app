@@ -1,6 +1,8 @@
 <template>
   <div>
+    
     <h1>User List</h1>
+    <p>Enter a letter then press search.</p>
     <input type="text" v-model="searchQuery" placeholder="Search users">
     <button @click="searchUsers">Search</button>
     <table>
